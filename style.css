@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #889063;
+  font-family: 'Press Start 2P', monospace;
+  overflow: hidden;
+}
+
+.ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  background: #e0dede;
+  padding: 10px;
+  border: 4px solid #333;
+  font-size: 10px;
+  z-index: 10;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.ui label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 150px;
+  background: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background: #000;
+  border: 2px solid #33ff33;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 10px;
+  background: #33ff33;
+  border: 2px solid #000;
+}
